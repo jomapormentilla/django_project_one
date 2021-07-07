@@ -1,1 +1,1 @@
-# django_project_one
+# Let's practice some Django framework conventions!
