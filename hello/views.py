@@ -6,4 +6,6 @@ def index(request):
     return render(request, "hello/index.html")
 
 def visitor(request, name):
-    return HttpResponse(f"Hello, {name.capitalize()}!")
+    return render(request, 'hello/visitor.html', {
+        "name": name.capitalize()
+    })
